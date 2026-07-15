@@ -1,4 +1,4 @@
-# MATLAB/Simulink Auto-generated/Temporary files
+# MATLAB/Simulink Auto-generated and Temporary files
 *.asv
 *.autosave
 *.m~
@@ -6,17 +6,22 @@
 *.mex*
 *.p
 *.log
+*.tmp
 *.bak
+*.cache
 *.mat
 
-# Simulink Code Generation
+# Simulink Code Generation and Cache folders
 slprj/
 codegen/
+work/
 sfprj/
+grt_rtw/
+ert_rtw/
 *_grt_rtw/
 *_ert_rtw/
 
-# Project configuration / temporary caches
+# Project configuration and temporary caches
 .SimulinkProject/
 _active_project.xml
 DerivedData/
@@ -25,3 +30,4 @@ resources/project/
 # Project logs and simulation results
 logs/
 results/
+
